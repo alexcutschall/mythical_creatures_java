@@ -1,0 +1,10 @@
+package creatures;
+
+public class Dragon {
+	
+	public String breathFire() {
+		return " The dragon breathes fire";
+	}
+	
+}
+
