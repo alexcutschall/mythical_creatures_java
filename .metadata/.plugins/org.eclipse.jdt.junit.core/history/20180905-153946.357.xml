@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="Rerun creatures.DragonTest.dragonCanBreathFire" project="mythical creatures" tests="1" started="1" failures="1" errors="0" ignored="0">
-  <testcase name="dragonCanBreathFire" classname="creatures.DragonTest" time="0.001">
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Rerun creatures.DragonTest.itCanAttackWithClaws" project="mythical creatures" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testcase name="itCanAttackWithClaws" classname="creatures.DragonTest" time="0.002">
     <failure>
-      <expected>The dragon breathes fire</expected>
-      <actual> The dragon breathes fire</actual>org.junit.ComparisonFailure: expected:&lt;[]The dragon breathes ...&gt; but was:&lt;[ ]The dragon breathes ...&gt;&#13;
+      <expected>It attacked with it's claws</expected>
+      <actual>It has no claws left!</actual>org.junit.ComparisonFailure: expected:&lt;It [attacked with it's claws]&gt; but was:&lt;It [has no claws left!]&gt;&#13;
 	at org.junit.Assert.assertEquals(Assert.java:115)&#13;
 	at org.junit.Assert.assertEquals(Assert.java:144)&#13;
-	at creatures.DragonTest.dragonCanBreathFire(DragonTest.java:12)&#13;
+	at creatures.DragonTest.itCanAttackWithClaws(DragonTest.java:19)&#13;
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;

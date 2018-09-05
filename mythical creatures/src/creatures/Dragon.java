@@ -2,8 +2,23 @@ package creatures;
 
 public class Dragon {
 	
+	public int claws = 1;
+	
 	public String breatheFire() {
 		return "The dragon breathes fire";
+	}
+	
+	public String attackWithClaws() {
+		if (claws >0) {
+			claws -=1;
+			return "It attacked with it's claws!";
+		} else {
+			return "It has no claws left!";
+		}
+	}
+
+	public String eatHuman() {
+		return "It eats humans";
 	}
 	
 }
