@@ -1,0 +1,13 @@
+package creatures;
+
+public class Unicorn {
+	
+	protected String name;
+	protected String color;
+	
+
+	public Unicorn(String name, String color) {
+		this.name = name;
+		this.color = color;
+	}
+}
