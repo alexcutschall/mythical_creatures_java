@@ -3,7 +3,7 @@ Mythical Creatures
 A collection of simple exercises to practice Java and JUnit.
 
 This is an identical version to a set of exercises that I completed
-during my time at my coding bootcamp Turing School of Software and
+during my time at the coding bootcamp Turing School of Software and
 Design and all credit goes to them for the design of the classes
 and tests.
 I created this because of how helpful it was for me in learning Ruby
